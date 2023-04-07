@@ -4,7 +4,6 @@
 
 放入想要切割的 pdf檔案 到 0_pdf2png 這個資料夾內
 
-
 ### 執行pdf2png.py：
 a. 請輸入pdf的檔案名稱(放在同一個資料夾裡面/包含.pdf)：(測試的話可以用29_31.pdf來跑一次，之後改成自己的檔案)
 b. 請輸入要切割的pdf對應到的起始頁(在138頁中的第幾頁開始)：(這邊改成138對應的頁數，如果切29到31，就寫29)
@@ -27,9 +26,7 @@ a. Please enter the number of pages you want to start processing(default:1): (�
 b. Please enter the number of pages you want to end processing(default:138): (輸入結束頁，如果是29到31，輸入31)
 之後就會創一個29_31的資料夾，裡面會有300個png檔案
 
-
 注意：w, X, Y的參數可能會依照png檔案的像素不同而需要修改，可以用test.png來抓對應的位置
-
 
 註：
 直接用Notability輸出PNG的話，這樣畫質不好
